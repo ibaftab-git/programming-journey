@@ -1,0 +1,31 @@
+# Windows
+desktop.ini
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# C/C++ compiled files
+*.exe
+*.obj
+*.o
+*.out
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+
+# VS Code temporary runner files
+**/tempCodeRunnerFile.c
+**/tempCodeRunnerFile.cpp
+**/tempCodeRunnerFile.py
+
+# IDE/project files
+*.cbp
+*.depend
+*.layout
