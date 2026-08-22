@@ -20,6 +20,7 @@
     }
     
 // used to create a linkedlist..
+// just checking to git hub 
     struct node *add_at_end(struct node *ptr , int data){
         struct node *temp = malloc(sizeof(struct node));
         
