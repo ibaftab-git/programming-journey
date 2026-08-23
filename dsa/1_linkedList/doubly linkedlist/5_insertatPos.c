@@ -46,7 +46,7 @@
         node *ptr  = head;
         int i = 1;
 
-        while(i != position){
+        while(i != position-1){
             ptr = ptr->next;
             i++;
         }
@@ -54,8 +54,12 @@
         temp->next = ptr->next;
         temp->data = data;
         temp->prev = ptr;
-        temp->next->prev = temp;
-        ptr->next = temp;
+        if(ptr->next != NULL)
+        {
+            ptr->next->prev = temp;
+        }
+
+        ptr->next = temp;   
     }
 
 int main()
@@ -64,7 +68,7 @@ int main()
     head = addToEmpty(head, 45);
     head = addAtBeg(head, 34);
     addAtEnd(head, 55);
-    addAtpos(head, 59, 2);
+    addAtpos(head, 59, 4);
 
 
 
