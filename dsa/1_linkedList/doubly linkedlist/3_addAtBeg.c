@@ -33,8 +33,8 @@ int main()
 
     node *ptr = head; // for printing the linklist
     while(ptr != NULL){
-        printf("%d", ptr->data);
-        if(ptr->next != NULL) printf("->");
+        printf(" %d ", ptr->data);
+        if(ptr->next != NULL) printf("<->");
         ptr = ptr->next;
     }
     
