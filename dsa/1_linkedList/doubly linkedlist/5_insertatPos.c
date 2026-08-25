@@ -68,6 +68,7 @@ int main()
     head = addToEmpty(head, 45);
     head = addAtBeg(head, 34);
     addAtEnd(head, 55);
+    addAtEnd(head, 56);
     addAtpos(head, 59, 4);
 
 
