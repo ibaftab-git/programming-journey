@@ -20,6 +20,11 @@
     void addAtEnd(node *head, int data){
         node *ptr = malloc(sizeof(node));
         node *temp = head;
+        
+        if (ptr == NULL) {
+        printf("Memory allocation failed\n");
+        return;
+    }
 
         while(temp->next != NULL){
             temp = temp->next;
