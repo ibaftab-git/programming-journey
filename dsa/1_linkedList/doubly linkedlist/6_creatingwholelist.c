@@ -39,7 +39,7 @@
 
     node *createlist(node *head){
         int data, n;
-        printf("enter the number of node :");
+        printf("enter the number node :");
         scanf("%d", &n);
 
         if(n == 0) return head;
