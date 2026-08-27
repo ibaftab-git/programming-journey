@@ -49,14 +49,7 @@ typedef struct node{
         return tail;
     }
 
-    void add_At_Beg(node *tail, int data){
-        node *newP = malloc(sizeof(node));
-        newP->data = data;
-        newP->next = tail->next;
-        tail->next = newP;
-        tail = newP;
-    }
-
+    
     void add_at_pos(node* tail, int position){
         node * ptr = tail->next;
         int data, i = 1;
