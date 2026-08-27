@@ -33,16 +33,21 @@ typedef struct node{
     }
 
     void del_last(node **tail){
-        node * ptr,  *temp;
-        ptr = temp = (*tail)->next;
-        do{
+        node * ptr;
+        ptr = (*tail)->next; 
+        // do{
+        //     ptr = ptr->next;
+        // }
+        // while(ptr->next->next != (*tail)->next);
+        // free(ptr->next);
+        // ptr->next = temp;
+        // *tail = ptr;
+        while(ptr->next != *tail){
             ptr = ptr->next;
         }
-        while(ptr->next->next != (*tail)->next);
-        free(ptr->next);
-        ptr->next = temp;
+        ptr->next = (*tail)->next;
+        free(*tail);
         *tail = ptr;
-
     }
 
     node * add_At_Empty(int data){ // creating only a node...
