@@ -9,6 +9,7 @@
 
         int brr [10] = {0};
 
+      
         for( int i = 0; i < n; i++){
             int x = arr[i];
             
