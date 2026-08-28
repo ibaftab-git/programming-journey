@@ -16,6 +16,11 @@ struct node *add_at_end(struct node *ptr , int data){
     ptr->link = temp;
     return temp;
 }
+void addtoEmpty(node *head, int data){
+    // creation of first node 
+    head->data = data;
+    head->link = NULL;
+}
 
 int main()
 {
