@@ -1,0 +1,65 @@
+[33mcommit c9781b9cb7ef5ece8cb18b9a5f9455e1667186b2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Tue Aug 25 23:40:34 2026 +0530
+
+    deletion in doubly linked list
+
+[33mcommit 1408776ef5f8b810133a00fcc1329917ecbfdb8a[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Tue Aug 25 23:18:39 2026 +0530
+
+    infinite running issue!
+
+[33mcommit a764cd646a73bf525e8f6d8b3bfa1595485a6ef9[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Tue Aug 25 23:17:21 2026 +0530
+
+    create a function for deletion of 1st node
+
+[33mcommit ce708ca10a509c3572a15325c361f5d3fe3aa130[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Tue Aug 25 22:51:01 2026 +0530
+
+    create node according to user
+
+[33mcommit 08e76e3fa521c99e7ec8bb12850f25018eb01244[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Tue Aug 25 22:46:03 2026 +0530
+
+    check condition for code 6
+
+[33mcommit 579c08d7793ef569a06fc377c2269db00b9889c8[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 12:56:19 2026 +0530
+
+    applied conditions for boundary
+
+[33mcommit e5aef8d74770701ec6e9b10259de0f8c28d393c4[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 12:50:49 2026 +0530
+
+    optimization
+
+[33mcommit e8af4c8787f06082aa4d71d3da63ddc7508fad2e[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 12:24:06 2026 +0530
+
+    creating a doubly linked list while using insertion technique
+
+[33mcommit 65bd4cd2f15e3e5d8f752c15a3e3b5c43f52b909[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 10:59:28 2026 +0530
+
+    started doubly link list
+
+[33mcommit 0e0e951c7e37c78a8be21dea6afba5448a767ebc[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 00:14:40 2026 +0530
+
+    added a comment
+
+[33mcommit 17176c7f2fe5ffc25e58dd525862190ddc9bed70[m
+Author: MD AFTAB <ibaftab.code@gmail.com>
+Date:   Sun Aug 23 00:03:43 2026 +0530
+
+    Initial programming journey
